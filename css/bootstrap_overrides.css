@@ -1,0 +1,87 @@
+.dark {
+	height: 50px;
+
+	background: black;
+	color: grey;
+}
+
+.logo, .logo:hover {
+	font-size: 2em;
+	text-decoration: none;
+	color: grey;
+
+	display: block;
+	margin-top: 4px;
+}
+
+.auth-data {
+	margin-top: 15px;
+}
+.navbar-toggle {
+	border: 1px solid #fff;
+	border-radius: 4px;
+}
+.toolbar {
+	margin-top: 6px;
+	font-size: 16px;
+}
+.border-top {
+	border-top: 1px solid #ddd;
+}
+.border-bottom {
+	border-bottom: 1px solid #ddd;
+}
+.no-border {
+	border: 0;
+}
+.top-marging {
+	margin-top: 25px;
+}
+.bottom-margin {
+	margin-bottom: 15px;
+}
+.right-float {
+	float: right;
+}
+.inline-list {
+	margin-top: 35px;
+	margin-bottom: 14px;
+}
+.inline-list-item {
+	font-size: 20px;
+	
+	display: inline-block;
+	margin: 0 6%;
+}
+.comments {
+	position: relative;
+}
+.comments-num {
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	padding: 3px 5px;
+	
+	font-size: 10px;
+	
+	background: green;
+}
+.btn-group {
+	width: 100%;
+}
+.btn-group .btn-info {
+	width: 25%;
+}
+.footer {
+	background: #ddd;
+	
+	height: 45px;
+	padding: 12px;
+}
+@media (max-width: 768px) {
+	.inline-list-item {
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+}
